@@ -1,0 +1,290 @@
+/* TaskManagement.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Main container */
+  .flex {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .w-64 {
+    width: 16rem; /* 64 units */
+  }
+  
+  .bg-blue-600 {
+    background-color: #2563eb; /* Blue-600 */
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .p-4 {
+    padding: 1rem; /* 4 units */
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem; /* 8 units */
+  }
+  
+  .flex.items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; /* 4 units */
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; /* Large text size */
+  }
+  
+  .font-semibold {
+    font-weight: 600; /* Semi-bold */
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem; /* 2 units */
+  }
+  
+  /* Main content styles */
+  .flex-1 {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .p-8 {
+    padding: 2rem; /* 8 units */
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem; /* 6 units */
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem; /* 2xl text size */
+  }
+  
+  .border-b {
+    border-bottom: 1px solid #e5e7eb; /* Gray border */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between table cells */
+  }
+  
+  /* Table header styles */
+  thead th {
+    padding: 0.5rem; /* Padding for table headers */
+    text-align: left;
+    background-color: #f9fafb; /* Gray-100 */
+  }
+  
+  tbody tr {
+    transition: background-color 0.2s; /* Smooth transition */
+  }
+  
+  tbody tr:hover {
+    background-color: #e5e7eb; /* Gray-200 on hover */
+  }
+  
+  /* Button styles */
+  button {
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .bg-blue-500 {
+    background-color: #3b82f6; /* Blue-500 */
+  }
+  
+  .text-white {
+    color: #ffffff; /* White text */
+  }
+  
+  .rounded {
+    border-radius: 0.25rem; /* Rounded corners */
+  }
+  
+  /* Task visibility styles */
+  .bg-blue-200 {
+    background-color: #bfdbfe; /* Light blue background */
+  }
+  
+  .text-blue-800 {
+    color: #1e3a8a; /* Darker blue text */
+  }
+  
+  /* Input styles */
+  input[type="text"] {
+    border: 1px solid #d1d5db; /* Gray border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.5rem; /* Padding inside input */
+    width: calc(100% - 1rem); /* Full width minus padding */
+  }
+  
+  /* Custom styles for task management sections */
+  .task {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+    padding: 0.5rem 0; /* Vertical padding */
+  }
+  
+  .add-button {
+    background-color: #3b82f6; /* Button color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.25rem 0.5rem; /* Padding for button */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .add-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  
+  /* Chevron down icon styles */
+  .transform.rotate-180 {
+    transform: rotate(180deg); /* Rotate icon */
+  }
+  
+  /* TaskManagement.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
+/* TaskManagement.css */
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.table-wrapper {
+  flex: 1;
+  overflow: auto;
+}
+/* TaskManagement.css */
+
+/* Bordure pour la table */
+table {
+  border-collapse: collapse; /* Assure que les bordures adjacentes se combinent */
+  width: 100%;
+  border: 1px solid #ccc; /* Bordure extérieure de la table */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Bordure autour des cellules */
+  padding: 8px; /* Espace autour du texte des cellules */
+  text-align: left; /* Aligne le texte à gauche */
+}
+
+thead {
+  background-color: #f5f5f5; /* Couleur d'arrière-plan pour l'en-tête de la table */
+}
+
+tr:hover {
+  background-color: #f9f9f9; /* Couleur de fond lorsque vous passez la souris */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fdfdfd; /* Couleur de fond pour les lignes paires */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* Couleur de fond pour les lignes impaires */
+}
+
+input {
+  border: 1px solid #ccc; /* Bordure pour les champs de saisie */
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.button {
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.bg-gray-200 {
+  background-color: #e2e8f0; /* Arrière-plan gris clair */
+}
+
+.bg-gray-100 {
+  background-color: #e5e7eb; /* Arrière-plan gris très clair */
+}

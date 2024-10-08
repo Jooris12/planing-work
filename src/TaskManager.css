@@ -1,0 +1,287 @@
+.div1 {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .div1 h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .div1 input[type="text"] {
+    width: calc(100% - 90px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .div1 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .div1 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .div1 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .div1 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .div1  li:last-child {
+    border-bottom: none;
+  }
+  
+  
+  .div1  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .div1 button:hover {
+    background-color: #c82333;
+  }
+  .task-manager {
+    padding: 20px;
+}
+
+.task-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .section-selectors {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+.section-selectors button {
+    width: 100px;
+    margin-left: 10px; 
+}
+
+.task-inputs input {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.task-inputs button {
+    width: 100px;
+    margin-left: 10px; 
+}
+
+.task-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-section {
+    width: 48%;
+}
+
+.task-section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.task-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-section li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.task-section button {
+    margin-left: 10px;
+    width: 100px;
+}
+.task-manager input[type="date"] {
+    width: 100px; 
+    margin: 5px 0; 
+  }
+  .task-manager {
+    height: 100vh; /* Prendre toute la hauteur de l'écran */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    padding: 20px;
+    background-color:#f3f3f3; /* Couleur de fond */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .task-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-selectors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .section-selectors button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .section-selectors button:hover {
+    background-color: #2980b9;
+  }
+  
+  .task-sections {
+    margin-top: 20px;
+  }
+  
+  .task-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .task-section h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li input[type="text"] {
+    width: calc(100% - 100px);
+    margin-right: 10px;
+  }
+  
+  li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #c0392b;
+  }
+  
+  li button:nth-child(2) {
+    background-color: #2980b9;
+  }
+  
+  li button:nth-child(2):hover {
+    background-color:  #136ca7;
+  }
+  /* TaskManagement.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh; /* Full viewport height */
+}
+
+.w-screen {
+  width: 100vw; /* Full viewport width */
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
